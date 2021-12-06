@@ -1,0 +1,70 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  h3,
+  h2 {
+    text-align: center; /* Выравнивание по центру */
+    vertical-align: middle;
+  }
+  table {
+    width: 100%; /* Ширина таблицы */
+    border-spacing: 23px 5px; /* Расстояние между границ */
+  }
+  .logo {
+    grid-column: 1 / 3;
+    background-image: url("./Images/logo.png");
+  }
+
+  .menu {
+    background-color: #cbaf6e;
+    text-align: center;
+  }
+  .menu a {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+    font-size: 25px;
+    line-height: 3;
+  }
+  .menu a:link {
+    color: #120801;
+  }
+  .menu a:visited {
+    color: #120801;
+  }
+  .menu a:hover {
+    color: #594c2e;
+  }
+  .menu a:active {
+    color: #594c2e;
+  }
+  th {
+    background-color: #120801;
+    color: #ceac70;
+  }
+  .main {
+    background-color: rgba(255, 252, 96, 0.644);
+  }
+  .main img {
+    margin-left: 20px;
+  }
+  .main p {
+    font-size: 17px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-indent: 1.5em; /* Отступ первой строки */
+  }
+  .advertising {
+    margin-left: 7%; /* Отступ слева */
+  }
+  .footer {
+    grid-area: footer;
+    background-color: #120801;
+    color: #ceac70;
+    text-align: center;
+  }
